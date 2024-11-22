@@ -33,7 +33,7 @@ export function Inner () {
       return [...items]
     }
   })
-  console.log('data', data)
+  console.log('current select', select)
   return (
     <form>
       <Select
